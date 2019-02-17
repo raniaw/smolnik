@@ -1,0 +1,201 @@
+/* CSS Document */
+
+body{background-color:#000000;
+	scrollbar-3dlight-color:#ffffff;
+    scrollbar-arrow-color:#ff0000;
+    scrollbar-face-color:#B5B1B1;
+    scrollbar-track-color:#000000;
+    scrollbar-darkshadow-color:#6D6B6B;
+    scrollbar-highlight-color:#F1F0F0;
+    scrollbar-shadow-color:#D5D2D2;
+}
+
+textarea {
+	scrollbar-3dlight-color:#ffffff;
+    scrollbar-arrow-color:#ff0000;
+    scrollbar-face-color:#B5B1B1;
+    scrollbar-track-color:#E9E3E3;
+    scrollbar-darkshadow-color:#6D6B6B;
+    scrollbar-highlight-color:#F1F0F0;
+    scrollbar-shadow-color:#D5D2D2;
+}
+#button_rot {
+	background-repeat:repeat-x;
+	background-image:url(../bilder/klavierunterricht_rot_hrgr.jpg);
+}
+
+#button_schwarz {
+	background-repeat:repeat-x;
+	background-image:url(../bilder/klavierunterricht_schwarz_h.jpg);
+	width:126px;
+}
+
+#kopf {
+	background-repeat:no-repeat;
+	background-image:url(../bilder/klavierunterricht_oben_hrgr.jpg);
+}
+
+#ecke_li_un{ 
+	background-image:url(../bilder/klavierunterricht_hrgr_re_e.jpg);
+	background-repeat:no-repeat;
+	width:56px;
+	height:43px;
+}
+
+#ecke_re_un{ 
+	background-repeat:no-repeat;
+	background-image:url(../bilder/klavierunterricht_hrgr_li_e.jpg);
+	width:55px;
+	height:43px;
+}
+
+#ecke_re_ob{
+	background-image:url(../bilder/klavierunterricht_hrgr_re_o.jpg); 
+	background-repeat:no-repeat;
+	width:24px;
+	height:19px;
+}
+
+#li_mi_ob{
+	width:140px;
+	height:109px;
+	background-color:#E9E3E3;
+	background-image:url(../bilder/klavierunterricht_hrgr_m_ob.jpg);
+	background-repeat:no-repeat;
+}
+	
+#li_m{
+	width:361px;
+	height:82px;
+	background-color:#E9E3E3;
+	background-image:url(../bilder/klavierunterricht_hrgr_ob_m.jpg);
+	background-repeat:no-repeat;
+}
+
+#li_mi_unt{
+	background-image:url(../bilder/klavierunterricht_hrgr_re_m.jpg);
+	background-repeat:no-repeat;
+	width:208px;
+	height:382px;
+	background-color:#E9E3E3;
+}
+
+#re_m{
+	background-color:#E9E3E3;
+}
+#content_ob{
+	background-image:url(../bilder/klavierunterricht_hrgr_m_c.jpg);
+	background-repeat:repeat-y;
+}
+
+#mi_content{
+background-color:#070202;
+	background-image:url(../bilder/klavierunterricht_hrgr_re_u.jpg);
+	background-repeat:repeat-y;
+	
+	width:153px;
+}
+
+#mi_content_unt{
+	background-color:#070202;
+	width:153px;
+	background-image:url(../bilder/klavierunterricht_hrgr_re_u.jpg);
+	background-repeat:repeat;
+}
+
+#mit_unt{
+	background-image:url(../bilder/klavierunterricht_hrgr_m_un.jpg);
+	background-repeat:repeat-x;
+	width:789px; 
+	height:43px;
+}
+
+a {
+	font-family: Century Gothic, Verdana, Geneva, Tahoma, Sans-Serif;
+	color: #FFFFFF;
+	font-size: 10pt;
+	text-decoration:none;
+}
+a:hover {
+	
+	text-decoration:none;
+	font-family: Century Gothic, Verdana, Geneva, Tahoma, Sans-Serif;
+	color: #FFFFFF;
+	font-size: 11pt;
+}
+
+.text_content {
+	font-family: Century Gothic, Verdana, Geneva, Tahoma, Sans-Serif;
+	font-size: 12px;
+	font-style: normal;
+	color: #4D4D4D;
+}
+cite{
+	font-family: Century Gothic, Verdana, Geneva, Tahoma, Sans-Serif;
+	font-size: 12px;
+	font-style: normal;
+	color: #4D4D4D;
+	float:right;
+	font-style:italic;
+}
+
+h1 {
+	font-family: Century Gothic, Verdana, Geneva, Tahoma, Sans-Serif;
+	font-size: 24px;
+	font-style: normal;
+	text-decoration: none;
+	color: #FF0000;
+}
+h2 {
+	font-family: Century Gothic, Verdana, Geneva, Tahoma, Sans-Serif;
+	color: #666666;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration:underline;
+}
+h3 {
+	color: #666666;
+	font-family: Century Gothic, Verdana, Geneva, Tahoma, Sans-Serif;
+	font-size: 13px;
+	font-weight: bold;
+	
+}
+
+
+.button{
+	color:#FFFFFF;
+	font-family: Century Gothic, Verdana, Geneva, Tahoma, Sans-Serif;
+	font-size:13px;
+}
+#unten {
+font-family: Century Gothic, Verdana, Geneva, Tahoma, Sans-Serif;
+	font-size:13px;
+	color:#666666;
+	
+}
+a.unten:hover{
+	font-family: Century Gothic, Verdana, Geneva, Tahoma, Sans-Serif;
+	font-size:13px;
+	color: #FF0000;
+
+}
+a.unten:link {
+	font-family: Century Gothic, Verdana, Geneva, Tahoma, Sans-Serif;
+	font-size:13px;
+	color: #666666;
+}
+a.unten:visited {
+	font-family: Century Gothic, Verdana, Geneva, Tahoma, Sans-Serif;
+	font-size:13px;
+	color: #666666;
+
+}
+.punkt {
+	color: #FF0000;
+	font-family: Century Gothic, Verdana, Geneva, Tahoma, Sans-Serif;
+	font-size: 11px;
+}
+.stern {
+	color: #FF0000;
+	font-family: "Century Gothic";
+}
