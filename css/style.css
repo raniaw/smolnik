@@ -349,6 +349,12 @@ p.text_content, ul.text_content {
 	color: #4D4D4D;
 	position: relative;
 }
+div.text_content {
+	position: relative;
+	top: 170px;
+	left: 20px;
+	width: 400px;
+}
 
 div.unterricht {
 	position: relative;
@@ -503,7 +509,16 @@ a.unten:visited {
 	font-family: "Century Gothic";
 }
 
-textarea {
+img{
+	border: 0;
+
+}
+
+object{
+	position: relative;
+	right: 70px;
+}
+/* textarea {
 	scrollbar-3dlight-color: #ffffff;
 	scrollbar-arrow-color: #ff0000;
 	scrollbar-face-color: #B5B1B1;
@@ -511,7 +526,7 @@ textarea {
 	scrollbar-darkshadow-color: #6D6B6B;
 	scrollbar-highlight-color: #F1F0F0;
 	scrollbar-shadow-color: #D5D2D2;
-}
+} */
 
 /* div#schwarz {
 	width: 24px;
@@ -521,12 +536,6 @@ textarea {
 	border: 1px solid white;
 } */
 
-div.text_content {
-	position: relative;
-	top: 170px;
-	left: 20px;
-	width: 400px;
-}
 
 /* a:hover {
 	text-decoration: none;
