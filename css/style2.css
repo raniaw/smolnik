@@ -34,6 +34,7 @@ div#haupt {
 }
 
 div.foto {
+	/* z-index: 5; */
 	width: 221px;
 	height: 280px;
 	float: left;
@@ -49,6 +50,7 @@ div.foto {
 }
 
 div#wbox {
+	/* z-index: 4; */
 	margin: 9px 0px 2px 0px;
 	width: 205px;
 	height: 273px;
@@ -63,6 +65,7 @@ div#wbox {
 }
 
 div#foto {
+	
 	/* align-content: center; */
 	margin: 24px 22px;
 	width: 162px;
@@ -73,6 +76,7 @@ div#foto {
 	-o-box-shadow: 4px 6px 6px 1px rgb(58, 58, 58);
 	-ms-box-shadow: 4px 6px 6px 1px rgb(58, 58, 58);
 	/* vertical-align: middle; */
+	/* z-index: 5; */
 }
 
 #kopf {
@@ -83,11 +87,11 @@ div#foto {
 	float: right;
 }
 
-#space {
+/* #space {
 	width: 1px;
 	height: 114px;
 	background-image: url(../bilder/spacer.gif);
-}
+} */
 
 div.nav {
 	background-color: #000000;
@@ -177,10 +181,11 @@ div#nav ul li a.active {
 	font-weight: bold;
 	text-decoration: none;
 	padding: 2px 28px 2px 28px;
+	/* z-index: 0; */
 }
 
 div#grey {
-	position: absolute;
+	position: relative;
 	top: 172px;
 	width: 900px;
 	border-radius: 20px;
@@ -189,8 +194,8 @@ div#grey {
 	-ms-border-radius: 20px;
 	-o-border-radius: 20px;
 	background-color: #e9e3e3;
-	/* z-index: -2; */
-	z-index: -5;
+	z-index: -1;
+	/* z-index: 0; */
 	margin: 0px;
 	/* border: 5px solid rgb(74, 160, 74); */
 }
@@ -200,56 +205,62 @@ div#grey {
 div#li_m_ob {
 	position: relative;
 	float: left;
+	top:-170px;
 	margin: 0;
-	left: 221px;
+	left: 0px;
 	width: 140px;
 	height: 109px;
 	background-color: #E9E3E3;
 	background-image: url(../bilder/klavierunterricht_hrgr_m_ob.jpg);
 	background-repeat: no-repeat;
+	/* z-index: 1; */
 }
 
 /* div#grey>#li_m { */
 
 #li_m {
-	position: absolute;
+	position: relative;
 	float: left;
-	top: 109px;
-	margin: 0;
+	left: -0px;	
+	top: -869px;
+	margin: -1;
 	width: 361px;
 	height: 82px;
 	background-color: #E9E3E3;
 	background-image: url(../bilder/klavierunterricht_hrgr_ob_m.jpg);
 	background-repeat: no-repeat;
+	/* z-index: 1; */
 }
 
-#li_m_unt {
+#li_m_li {
 	/* #li_m_unt { */
-	position: absolute;
+	position: relative;
 	float: left;
-	top: 191px;
+	left:-360px;
+	top: 21px;
 	margin: 0;
 	width: 208px;
 	height: 382px;
 	background-color: #E9E3E3;
 	background-image: url(../bilder/klavierunterricht_hrgr_re_m.jpg);
 	background-repeat: no-repeat;
+	
 }
 
 /* div#grey>#li_m_m { */
 
 #li_m_m {
-	position: absolute;
+	position: relative;
 	float: left;
-	top: 191px;
-	left: 208px;
+	top: -385px;
+	left: -460px;
 	margin: 0;
 	width: 153px;
 	height: 373px;
 	background-image: url(../bilder/klavierunterricht_hrgr_m_m.jpg);
 	background-repeat: no-repeat;
 	/* z-index: 0; */
-	z-index: -3;
+	/* z-index: 1; */
 }
 
 /* div#grey > #li_m_ind { */
@@ -259,8 +270,8 @@ div#li_m_ob {
 	/* border: 1px solid red; */
 	text-align: right;
 	float: left;
-	top: 138px;
-	left: 68px;
+	top: -415px;
+	left: 209px;
 	margin: 0;
 	width: 668px;
 	background: rgba(247, 245, 246, 0);
@@ -271,8 +282,8 @@ div#li_m_ob {
 	background: -ms-linear-gradient(left, rgba(247, 245, 246, 1) 0%, rgba(247, 245, 246, 1) 27%, rgba(247, 245, 246, 1) 54%, rgba(233, 227, 227, 0.34) 100%);
 	background: linear-gradient(to right, rgba(247, 245, 246, 1)0%, rgba(247, 245, 246, 1) 27%, rgba(247, 245, 246, 1) 54%, rgba(233, 227, 227, 0.34) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f5f6', endColorstr='#e9e3e3', GradientType=1);
-	/* z-index: -1; */
-	z-index: -4;
+	z-index: 0;
+	/* z-index: 0; */
 }
 
 /* div#grey > div#li_m_ind > cite { */
@@ -406,9 +417,9 @@ div#preise2 {
 div.nav_unt {
 	position: relative;
 	width: 860px;
-	top: 100px;
+	top: -470px;
 	vertical-align: middle;
-	/* text-align: center; */
+	text-align: center;
 	align-content: center;
 	/* border-radius: 0 0 20px 20px; */
 	/* border: 5px solid rgb(179, 47, 255); */
@@ -429,7 +440,7 @@ hr#nav_unt {
 	margin-top: 50px;
 	align-content: center;
 	/* z-index: 1; */
-	z-index: -2;
+	z-index: -1;
 	max-lines: 250px;
 	width: 800px;
 	border: 1px solid red;
@@ -447,6 +458,7 @@ div.unten {
 	-moz-box-orient: vertical;
 	-o-box-orient: vertical;
 	-ms-box-orient: vertical;
+	z-index: 0;
 }
 
 /* .nav_unt ul#unt { */
@@ -513,13 +525,14 @@ a.unten:visited {
 	font-family: "Century Gothic";
 }
 
-img{
+img.navi, img.kontakt{
 	border: 0;
 }
 
-img.nav{
-	z-index: 0;
+img.navi{
+	z-index: 4;
 }
+
 
 object{
 	position: relative;
