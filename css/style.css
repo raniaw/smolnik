@@ -82,12 +82,12 @@ div#foto {
 	height: 114px;
 	float: right;
 }
-
+/* 
 #space {
 	width: 1px;
 	height: 114px;
 	background-image: url(../bilder/spacer.gif);
-}
+} */
 
 div.nav {
 	background-color: #000000;
@@ -136,6 +136,7 @@ div#nav ul li {
 }
 
 div#nav ul li.active {
+	/* display: inline; */
 	margin: 0;
 	background: rgba(0, 0, 0, 1);
 	background: -moz-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 25%, rgba(255, 255, 255, 1) 26%, rgba(254, 244, 243, 1) 33%, rgba(254, 175, 181, 1) 40%, rgba(255, 109, 124, 1) 46%, rgba(233, 10, 31, 1) 51%, rgba(248, 5, 27, 1) 54%, rgba(255, 0, 0, 1) 55%, rgba(252, 3, 3, 1) 66%, rgba(246, 7, 30, 1) 75%, rgba(0, 0, 0, 1) 77%, rgba(0, 0, 0, 1) 82%, rgba(160, 24, 36, 1) 83%, rgba(67, 2, 8, 1) 99%, rgba(67, 2, 8, 1) 100%);
@@ -189,8 +190,8 @@ div#grey {
 	-ms-border-radius: 20px;
 	-o-border-radius: 20px;
 	background-color: #e9e3e3;
-	/* z-index: -2; */
-	z-index: -5;
+	z-index: -2;
+	/* z-index: -5; */
 	margin: 0px;
 	/* border: 5px solid rgb(74, 160, 74); */
 }
@@ -227,7 +228,7 @@ div#li_m_ob {
 	/* #li_m_unt { */
 	position: absolute;
 	float: left;
-	top: 191px;
+	top: 190px;
 	margin: 0;
 	width: 208px;
 	height: 382px;
