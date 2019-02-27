@@ -14,8 +14,8 @@
       von den Klavierunterrichten und Musikstunden.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/style.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style-image.css">
-    <script src="js/modal-image.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style-galery.css">
+    <script src="js/script-galery.js"></script>
   </head>
 
   <body>
@@ -67,10 +67,10 @@
           <div id="li_m_ind">
             <h1><u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fotogalerie</u></h1>
             <!-- <div id="text_content"> -->
+
             <p class="text_content">&nbsp;</p>
             <p class="text_content">&nbsp;</p>
-            <p class="text_content">&nbsp;</p>
-            <p class="text_content">&nbsp;</p>
+           
             <!-- <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
               codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
               width="401" height="400" id="tech" align="middle">
@@ -86,211 +86,53 @@
             </object> -->
             <!--****  *****-->
 
+           
             <div class="row">
-
-              <div class="column">
-                <img src="bilder/1.jpg" style="width:60%"
-                  onclick="openModal();currentSlide(1)" class="hover-shadow
-                  cursor">
-              </div>
-
-              <div class="column">
-                <img src="bilder/2.jpg" style="width:60%"
-                  onclick="openModal();currentSlide(2)" class="hover-shadow
-                  cursor">
-              </div>
-
-              <div class="column">
-                <img src="bilder/3.jpg" style="width:60%"
-                  onclick="openModal();currentSlide(3)" class="hover-shadow
-                  cursor">
-              </div>
-
-            </div>
-            <p class="text_content">&nbsp;</p>
-
-            <div class="row">
-
-              <div class="column">
-                <img src="bilder/4.jpg" style="width:60%"
-                  onclick="openModal();currentSlide(4)" class="hover-shadow
-                  cursor">
-              </div>
-
-              <div class="column">
-                <img src="bilder/5.jpg" style="width:60%"
-                  onclick="openModal();currentSlide(5)" class="hover-shadow
-                  cursor">
-              </div>
-
-              <div class="column">
-                <img src="bilder/6.jpg" style="width:60%"
-                  onclick="openModal();currentSlide(6)" class="hover-shadow
-                  cursor">
-              </div>
-            </div>
-            <p class="text_content">&nbsp;</p>
-
-            <div class="row">
-
-              <div class="column">
-                <img src="bilder/7.jpg" style="width:60%"
-                  onclick="openModal();currentSlide(7)" class="hover-shadow
-                  cursor">
-              </div>
-
-              <div class="column">
-                <img src="bilder/8.jpg" style="width:60%"
-                  onclick="openModal();currentSlide(8)" class="hover-shadow
-                  cursor">
-              </div>
-
-              <div class="column">
-                <img src="bilder/9.jpg" style="width:60%"
-                  onclick="openModal();currentSlide(9)" class="hover-shadow
-                  cursor">
-              </div>
-
-            </div>
-            <p class="text_content">&nbsp;</p>
-
-            <div class="row">
-
-              <div class="column">
-                <img src="bilder/10.jpg" style="width:60%"
-                  onclick="openModal();currentSlide(10)" class="hover-shadow
-                  cursor">
-              </div>
-
-              <div class="column">
-                <img src="bilder/11.jpg" style="width:60%"
-                  onclick="openModal();currentSlide(11)" class="hover-shadow
-                  cursor">
-              </div>
-
-            </div>
-
-            <div id="myModal" class="modal">
-              <span class="close cursor" onclick="closeModal()">&times;</span>
-              <div class="modal-content">
-
-                <div class="mySlides">
-                  <div class="numbertext">1 / 11</div>
-                  <img src="bilder/1.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                  <div class="numbertext">2 / 11</div>
-                  <img src="bilder/2.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                  <div class="numbertext">3 / 11</div>
-                  <img src="bilder/3.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                  <div class="numbertext">4 / 11</div>
-                  <img src="bilder/4.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                  <div class="numbertext">5/ 11</div>
-                  <img src="bilder/5.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                  <div class="numbertext">6 / 11</div>
-                  <img src="bilder/6.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                  <div class="numbertext">7 / 11</div>
-                  <img src="bilder/7.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                  <div class="numbertext">8/ 11</div>
-                  <img src="bilder/8.jpg" style="width:100%">
-                </div>
-                <div class="mySlides">
-                  <div class="numbertext">9 / 11</div>
-                  <img src="bilder/9.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                  <div class="numbertext">10 / 11</div>
-                  <img src="bilder/10.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                  <div class="numbertext">11 / 11</div>
-                  <img src="bilder/11.jpg" style="width:100%">
-                </div>
-                
-                <!--**** arrow left-preview, right-next *****-->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-                <div class="caption-container">
-                  <p id="caption"></p>
-                </div>
-
-                <!-- ****** 40%-->
                 <div class="column">
-                  <img class="demo cursor" src="bilder/1.jpg" style="width:40%"
-                    onclick="currentSlide(1)" alt="1">
+                  <img class="hover-shadow cursor" src="bilder/1.jpg" alt="1/9" style="width:80%" onclick="myFunction(this);">
                 </div>
                 <div class="column">
-                  <img class="demo cursor" src="bilder/2.jpg" style="width:40%"
-                    onclick="currentSlide(2)" alt="2">
+                  <img class="hover-shadow cursor" src="bilder/2.jpg" alt="2/9" style="width:80%" onclick="myFunction(this);">
                 </div>
                 <div class="column">
-                  <img class="demo cursor" src="bilder/3.jpg" style="width:40%"
-                    onclick="currentSlide(3)" alt="3">
+                  <img class="hover-shadow cursor"  src="bilder/3.jpg" alt="3/9" style="width:80%" onclick="myFunction(this);">
                 </div>
-                <div class="column">
-                  <img class="demo cursor" src="bilder/4.jpg" style="width:40%"
-                    onclick="currentSlide(4)" alt="4">
-                </div>
-                <div class="column">
-                  <img class="demo cursor" src="bilder/5.jpg" style="width:40%"
-                    onclick="currentSlide(5)" alt="5">
-                </div>
-                <div class="column">
-                  <img class="demo cursor" src="bilder/6.jpg" style="width:40%"
-                    onclick="currentSlide(6)" alt="6">
-                </div>
-                <div class="column">
-                  <img class="demo cursor" src="bilder/7.jpg" style="width:40%"
-                    onclick="currentSlide(7)" alt="7">
-                </div>
-                <div class="column">
-                  <img class="demo cursor" src="bilder/8.jpg" style="width:40%"
-                    onclick="currentSlide(8)" alt="8">
-                </div>
-                <div class="column">
-                  <img class="demo cursor" src="bilder/9.jpg" style="width:40%"
-                    onclick="currentSlide(9)" alt="9">
-                </div>
-                <div class="column">
-                  <img class="demo cursor" src="bilder/10.jpg"
-                    style="width:40%"
-                    onclick="currentSlide(10)" alt="10">
-                </div>
-                <div class="column">
-                  <img class="demo cursor" src="bilder/11.jpg"
-                    style="width:40%"
-                    onclick="currentSlide(11)" alt="11">
-                </div>
-
               </div>
-            </div>
+              <div class="row">
+                  <div class="column">
+                    <img class="hover-shadow cursor"  src="bilder/4.jpg" alt="4/9" style="width:80%" onclick="myFunction(this);">
+                  </div>
+                  <div class="column">
+                    <img class="hover-shadow cursor"  src="bilder/5.jpg" alt="5/9" style="width:80%" onclick="myFunction(this);">
+                  </div>
+                  <div class="column">
+                    <img class="hover-shadow cursor"  src="bilder/6.jpg" alt="6/9" style="width:80%" onclick="myFunction(this);">
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                      <img class="hover-shadow cursor" src="bilder/7.jpg" alt="7/9" style="width:80%" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                      <img class="hover-shadow cursor"  src="bilder/8.jpg" alt="8/9" style="width:80%" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                      <img class="hover-shadow cursor" src="bilder/9.jpg" alt="9/9" style="width:80%" onclick="myFunction(this);">
+                    </div>
+                  </div>
+              
+              
+              <div class="container">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+              
+                <img class="hover-shadow cursor" id="expandedImg" style="width:70%">
+                <div id="imgtext"></div>
+              </div>
 
-
+          
 
             <p class="text_content">&nbsp;</p>
-            <p class="text_content">&nbsp;</p>
+           
 
             <!-- </div> -->
           </div>
