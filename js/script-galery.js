@@ -7,4 +7,4 @@ function myFunction(imgs) {
     var shadow = document.getElementsByClassName("hover-shadow cursor");
     document.getElementsByTagName("img").style=shadow;
     expandImg.parentElement.style.display = "block"; 
-  }
+}
