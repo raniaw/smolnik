@@ -81,7 +81,7 @@ img.hover-shadow:hover {
     font-size: 20px;
     color: #666666;
 	font-family: Century Gothic, Verdana, Geneva, Tahoma, Sans-Serif;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: bold;
     padding: 12px 12px;
     position: absolute;
@@ -120,6 +120,8 @@ img.hover-shadow:hover {
     border-radius: 0 15px 15px 0;
     user-select: none;
     -webkit-user-select: none;
+    border: #ff0000;
+
 }
 
 .prev {
@@ -136,6 +138,7 @@ img.hover-shadow:hover {
     border-radius: 15px 0 0 15px;
     user-select: none;
     -webkit-user-select: none;
+    border: #ff0000;
 }
 
 /* Position the "next button" to the right */
@@ -154,15 +157,4 @@ img.hover-shadow:hover {
 
 .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-}
-.numbertext {
-    color: #666666;
-	font-family: Century Gothic, Verdana, Geneva, Tahoma, Sans-Serif;
-	font-size: 14px;
-	font-weight: bold;
-    padding: 8px 12px;
-    position: absolute;
-    top: 10px;
-    background: rgb(224, 3, 3);
-    border-radius: 5px;
 }
