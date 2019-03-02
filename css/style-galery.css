@@ -7,6 +7,10 @@ body {
     font-family: Century Gothic, Verdana, Geneva, Tahoma, Sans-Serif;
 }
 
+/* Grid-Erstellung 
+.row für Zeilen
+.column für Spalten
+*/
 .row>.column {
     position: relative;
     left: 120px;
@@ -25,7 +29,6 @@ body {
     width: 25%;
 }
 
-/* The grid: Four equal columns that floats next to each other */
 
 .column {
     float: left;
@@ -33,7 +36,7 @@ body {
     padding: 10px;
 }
 
-/* Style the images inside the grid */
+/* für Bilder  */
 
 .column img {
     opacity: 0.6;
@@ -67,7 +70,7 @@ img.hover-shadow:hover {
     position: relative;
     right:55px;
     display: none;
-    top: 20px;
+    top: 25px;
 }
 
 /* Text für grosses Bild z.B 1/9) */
@@ -93,7 +96,8 @@ img.hover-shadow:hover {
 }
 
 
-/* Button 'X' für geöffnetes Bild*/
+/* Button 'X' für geöffnetes Bild 
+schließt ausgewähltes Bild*/
 
 .closebtn {
     position: absolute;
@@ -104,57 +108,3 @@ img.hover-shadow:hover {
     cursor: pointer;
 }
 
-/* ***************** */
-
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    transition: 0.6s ease;
-    border-radius: 0 15px 15px 0;
-    user-select: none;
-    -webkit-user-select: none;
-    border: #ff0000;
-
-}
-
-.prev {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    transition: 0.6s ease;
-    border-radius: 15px 0 0 15px;
-    user-select: none;
-    -webkit-user-select: none;
-    border: #ff0000;
-}
-
-/* Position the "next button" to the right */
-
-.next {
-    right: 0;
-    border-radius: 15px 0 0 15px;
-}
-
-.prev {
-    left: 0;
-    border-radius: 0 15px 15px 0;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-
-.prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
