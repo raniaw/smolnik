@@ -70,9 +70,9 @@ img.hover-shadow:hover {
     top: 20px;
 }
 
-/* Expanding image text */
+/* Text für grosses Bild z.B 1/9) */
 
-#imgtext {
+#bildtext {
     position: absolute;
     left:203px;
     bottom: 15px;
@@ -93,7 +93,7 @@ img.hover-shadow:hover {
 }
 
 
-/* Closable button inside the expanded image */
+/* Button 'X' für geöffnetes Bild*/
 
 .closebtn {
     position: absolute;

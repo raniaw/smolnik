@@ -1,10 +1,11 @@
-function myFunction(imgs) {
+function myFunction(bilder) {
 
-    var expandImg = document.getElementById("expandedImg"); 
-    var imgText = document.getElementById("imgtext"); 
-    expandImg.src = imgs.src; 
-    imgText.innerHTML = imgs.alt; 
+    var grossBild = document.getElementById("grossesbild"); 
+    var bildtext = document.getElementById("bildtext"); 
+    grossBild.src = bilder.src; 
+    bildtext.innerHTML = bilder.alt; 
+    console.log(bildtext.innerHTML+ " "+ bilder.alt );
     var shadow = document.getElementsByClassName("hover-shadow cursor");
     document.getElementsByTagName("img").style=shadow;
-    expandImg.parentElement.style.display = "block"; 
-}
+    grossBild.parentElement.style.display = "block"; 
+  }
