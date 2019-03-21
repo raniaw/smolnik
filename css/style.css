@@ -144,14 +144,14 @@ div#nav ul li.active {
 	text-shadow: 2px -2px #FF0000;
 	font-size: 15px;
 	text-decoration: none;
-	padding: 15px 28px 16px 28px;
+	padding: 15px 28px 16px 27px;
 }
 
 div#nav ul li a {
 	font-family: Century Gothic, Verdana, Geneva, Tahoma, Sans-Serif;
 	color: #FFFFFF;
 	font-size: 15px;
-	padding: 35px 28px 35px 28px;
+	padding: 35px 28px 35px 27px;
 	text-decoration: none;
 	vertical-align: middle;
 }
