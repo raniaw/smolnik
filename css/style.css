@@ -169,7 +169,7 @@ div#nav ul li a.active {
 	font-size: 15px;
 	font-weight: bold;
 	text-decoration: none;
-	padding: 2px 28px 2px 28px;
+	padding: 2px 27px 2px 27px;
 }
 
 div#grey {
@@ -422,7 +422,7 @@ ul#unt {
 ul#unt li {
 	display: inline;
 	padding: 0px 20px 20px 0px;
-	margin: 0px 15px 0px 0px;
+	margin: 0px 0px 0px 0px;
 }
 
 ul#unt li a {
@@ -431,6 +431,7 @@ ul#unt li a {
 	font-size: 10pt;
 	text-decoration: none;
 	vertical-align: middle;
+	padding-top: 11px;
 }
 
 a#unten {
@@ -438,6 +439,7 @@ a#unten {
 	font-size: 10px;
 	color: #ffffff;
 	vertical-align: middle;
+	
 }
 
 a.unten:hover {
